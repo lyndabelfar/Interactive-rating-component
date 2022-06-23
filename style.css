@@ -1,0 +1,83 @@
+body{
+    background: hsl(216, 12%, 8%);
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 120vh;
+    flex-direction: column;
+}
+.rating-btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.rating-btn{
+    background:hsl(212, 12%, 22%, 0.377);
+    border: 1px solid hsl(213, 20%, 18%);
+    border-radius: 50%;
+    color: white;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+.rating-btn:hover{
+    background: hsl(217, 12%, 63%);
+    border: 1px solid hsl(217, 12%, 63%);
+    transition: 500ms;
+}
+.submit-btn{
+    color: white;
+    width: 100%;
+    font-size: 1.1rem;
+    background: hsl(25, 97%, 53%);
+    border: 1px solid hsl(25, 97%, 53%);
+    border-radius: 15px;
+    margin-top: 10px;
+    height: 30px;
+    cursor: pointer;
+
+}
+.selected-btn{
+    background: hsl(25, 97%, 53%);
+    border: 1px solid hsl(25, 97%, 53%);}
+.submit-btn:hover{
+    border:  white 1px solid;
+    background: white;
+    color:hsl(25, 97%, 53%) ;
+    transition: 500ms;
+    
+}
+.container{
+    border: 1px solid hsl(213, 19%, 18%) ;
+    background:  hsl(213, 19%, 18%);
+    border-radius: 15px;
+    width: 22%;
+    padding: 2%;
+}
+.hidden-div{
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.not-hidden-anymore{
+    opacity: 1;
+    top: -30px;
+}
+
+.result-p{
+    color: hsl(25, 97%, 53%);
+    background: hsl(214, 11%, 13%);
+    border: 1px solid hsl(214, 11%, 13%);
+    border-radius: 10px;
+    padding: 3px;
+    margin: 5px;
+}
